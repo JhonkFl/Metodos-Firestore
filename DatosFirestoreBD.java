@@ -1,4 +1,4 @@
-package com.softjk.waitapp.Metodos;
+package com.JhonkFL.Metodos;
 
 import android.content.Context;
 
@@ -72,7 +72,7 @@ public class DatosFirestoreBD {
 
 // ********************* Llamar Metodo para Usar ******************************
 
-/*          DatosFirestoreBD.FirestoreBD(MiActivity.this,"collection","document", DatosMap, "Mensaje", new DatosFirestoreBD.GuardarCallback() {
+/*          DatosFirestoreBD.GuardarDatos(MiActivity.this,"collection","document", DatosMap, "Mensaje", new DatosFirestoreBD.GuardarCallback() {
                 @Override
                 public void onResultado(String resultado) {
                     if ("Guardado".equals(resultado)) {
