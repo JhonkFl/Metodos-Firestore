@@ -1,4 +1,3 @@
-package com.softjk.waitapp.Metodos;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -23,7 +22,7 @@ public class ReciclerVacio {
                     if (task.getResult().isEmpty()) {
                         callback.onResult("Vacio");
                     } else {
-                        callback.onResult("NoVacio2");
+                        callback.onResult("Hay1Elemt");
                     }
                 } else {
                     callback.onResult("Error al obtener los datos: " + task.getException());
